@@ -1,0 +1,209 @@
+:root{
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+    --white:#ffffff;
+    --wh-font:rgba(201, 201, 201, 0.945);
+    --nav-bg-color:#040B14;
+    --text-color:#0f0f0ffa;
+    --gray-blue:#292F37;
+    --nav-hover:#149DDD;
+    --nav-sec:#c5d2da;
+    --red-c:#F20F10;
+    --style-font:"Bubblegum Sans", sans-serif;
+}
+@media (max-width:1350px) {
+    .baner .right sup{
+        left: 180px;
+    }
+    .about_box{
+        width: 100%;
+        padding-left: 15px;
+    }
+
+
+}
+@media (max-width:1200px) {
+    
+    .main #nav{
+        position: absolute;
+        width: 0;
+        top: 0%;
+        left: -44%;
+        transition: all ease .5s;
+        z-index: 999;
+        background-color: var(--nav-bg-color);
+        
+    }
+    .body_2 .menu{
+        display: block;
+    }
+    .body_2{
+        width:100%;
+        
+        margin: 0 auto;
+    }
+    /* .baner{
+        width: 115%;
+        border: 1px solid red;
+    } */
+    
+}
+@media (max-width:1024px) {
+    .baner .right .arr{
+        top: -504px;
+        left: -152px;
+    }
+    .baner .right .p{
+        top: -563px;
+        left: -154px;
+    }     
+    .baner {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .baner .left{
+        width: 420px;
+        height: auto;
+    }
+    .baner .right{
+        width: 350px;
+    }
+    .baner .right .bg_3box{
+    height: 320px;
+    width: 320px;
+    top: 11%;
+}
+.button{
+    bottom: 62%;
+}
+.baner .right sup{
+    left: 80px;
+    font-size: 17px;
+}
+.baner .right sub{
+    left: 0px;
+    font-size: 17px;
+}
+@keyframes pandu{
+    0%{
+        top: -120px;
+    }
+    100%{
+        top:-170px;
+    }
+}
+@keyframes pandu2{
+    0%{
+        top:-140px;
+    }
+    100%{
+        top: -90px;
+    }
+}
+
+
+}
+@media (max-width:900px) {
+    .ab_main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about_box {
+        width: 90%;
+    }
+    .ab-photo {
+        width: 80%;
+    }
+}
+@media (max-width:700px) {
+    .skill_box{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .sub_skill{
+        margin: 0 0 20px 0;
+    }
+    #nav{
+        height: 665px;
+    }
+    .baner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 0 0 0;
+    }
+    .baner .left{
+        width: 100%;
+        padding-left: 12px;
+    }
+    .baner .right{
+        width: 100%;
+    }
+    .baner .left p{
+        width: 94%;
+    }
+    .baner .right sup{
+    left: 350px;
+    font-size: 17px;
+}
+.baner .right sub{
+    left: 30px;
+    font-size: 17px;
+}
+.s_form {
+    width: 100%;
+}
+.s_input{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+}
+@media (max-width:600px){
+        
+    .baner .right sup{
+    left: 220px;
+    font-size: 17px;
+    }
+    .baner .right sub{
+    left: 30px;
+    font-size: 17px;
+    }
+    .live {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .live_sub{
+    width: 100%;
+    margin:3px 0;
+    }
+}
+@media (max-width:505px){
+    .skill_box{
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .info {
+        padding: 0px 10px 15px 5px;
+    }
+}
+@media (max-width:440px){
+    .baner .right sup{
+    left: 150px;
+    font-size: 13px;
+    }
+    .baner .right sub{
+    font-size: 13px;
+    }
+}
