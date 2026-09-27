@@ -1493,7 +1493,8 @@ body{
         cursor: pointer;
         z-index: 2;
         overflow: hidden;
-        background:linear-gradient(140deg,var(--nav-bg-color),var(--nav-bg-color),#0053a3);
+        background-color: var(--nav-bg-color);
+        /* background:linear-gradient(140deg,var(--nav-bg-color),var(--nav-bg-color),#0053a3); */
     }
     .jhatu::after{
     content: '';
