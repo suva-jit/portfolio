@@ -746,7 +746,7 @@ body{
 }
 .about_box{
     height:auto;
-    align-content: center;
+    /* align-content: center; */
     width: 60%;
     padding:0px 0px 10px 0;
 }
